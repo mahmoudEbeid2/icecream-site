@@ -1,0 +1,229 @@
+/* General  */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 13.3px;
+  font-family: "Berkshire Swash", cursive;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --main-color: #f83d8e;
+  --sec-color: #646464;
+  --black: #212529;
+  --main-font-size: 16px;
+}
+.binkColor {
+  color: var(--main-color);
+}
+.binkBackground {
+  background-color: var(--main-color);
+}
+.grayColor {
+  color: var(--sec-color);
+}
+.grayBackground {
+  background-color: var(--sec-color);
+}
+.blackColor {
+  color: var(--black);
+}
+.fontSize-1-375 {
+  font-size: 1.375rem;
+}
+.fontSize-3-75 {
+  font-size: 3.75rem;
+}
+.fw-400 {
+  font-weight: 400;
+}
+
+/*! ==================review section ================= */
+.review-page {
+  padding: 9.3rem 0;
+  background: linear-gradient(
+    106deg,
+    #efd7ef 8%,
+    #f5f9fc 40%,
+    #f8eae1 66%,
+    #eaf8f9 91%
+  );
+}
+.review-title {
+  color: #0f0200;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Berkshire Swash";
+}
+.link-review {
+  color: #0f0200;
+  font-size: 1.125rem;
+  margin: 0 4px;
+  font-family: Archivo;
+}
+.active-link-review {
+  color: #f83d8e;
+}
+.links-review {
+  width: 14.44938rem;
+  margin: auto;
+  padding: 0.7rem 2rem;
+  border-radius: 2.1875rem;
+}
+/*! ==================reviews section ================= */
+
+.review-section .container .header .h2,
+.span {
+  color: #0f0200;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4rem;
+  font-family: "Berkshire Swash";
+}
+.review-section .container .header .h2 {
+  color: #0f0200;
+}
+.review-section .container .header p {
+  color: #646464;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.testimonial-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 73px 2px rgba(0, 0, 0, 0.05) inset;
+  transition: 0.3s;
+  position: relative;
+  border-bottom: 2px solid #f83d8e;
+}
+
+.mycard {
+  width: 21.875rem;
+  height: 21.4375rem;
+}
+.stars {
+  color: #ffc045;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 0.75rem;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #f83d8e;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  position: static;
+  margin-top: 30px;
+}
+
+/*? ================== footer section ================= */
+.footer {
+  padding-top: 5rem;
+  background-color: #683292;
+  font-family: "Archivo";
+}
+
+.footer .float-img {
+  width: 12.5rem;
+  height: 15rem;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+.footer .f-logo {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+.footer .f-logo span {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+.footer h4 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+}
+.footer .ul-cont ul {
+  padding-left: 1rem;
+}
+.footer .ul-cont li::marker {
+  color: var(--main-color);
+}
+.footer .ul-cont li {
+  padding: 1rem 0;
+}
+.footer .ul-cont li a {
+  color: #cfb6e2;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.footer .f-address i {
+  border-radius: 6.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem !important;
+  height: 2.8rem !important;
+  margin: 0.3rem 1.3rem 0 0;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.footer .f-address p,
+.footer .f-phone p {
+  color: #cfb6e2;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.footer .f-phone div:first-child i {
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+.footer .icons-social i {
+  border-radius: 6.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+.footer .f-row2 {
+  color: #cfb6e2;
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 0.75rem;
+  font-weight: 400;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+.footer .scroll-to-top {
+  right: 3%;
+  bottom: 15%;
+  padding: 1rem 1.25rem;
+}
+.footer .scroll-to-top i {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.084rem;
+  font-weight: 900;
+  line-height: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .footer .f-row1 > div {
+    padding: 2rem 1rem;
+  }
+}

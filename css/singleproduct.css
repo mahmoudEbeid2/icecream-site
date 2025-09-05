@@ -1,0 +1,237 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Berkshire Swash";
+}
+html {
+  font-size: 12px;
+}
+.ourTeam {
+  padding: 9.3rem 0;
+  background: linear-gradient(
+    106deg,
+    #efd7ef 8%,
+    #f5f9fc 40%,
+    #f8eae1 66%,
+    #eaf8f9 91%
+  );
+}
+.teamTitle {
+  color: #0f0200;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.linkTeam {
+  color: #0f0200;
+  font-size: 1.125rem;
+  text-decoration: none;
+  margin: 0 4px;
+}
+.active-link-team {
+  color: #f83d8e;
+}
+.links-single-product {
+  width: 21.92188rem;
+  margin: auto;
+  padding: 0.7rem 3rem;
+  border-radius: 2.1875rem;
+}
+/* single product */
+.container-single-product {
+  margin: 8rem 20% ;
+}
+.singleproduct-images {
+  width: 360px;
+}
+.thumb img {
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.thumb.active img {
+  border-color: #ff007a;
+}
+.circle-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.size-btn {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 13px;
+  margin-right: 7px;
+}
+.quantity-control {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 10.0625rem;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.quantity-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.125rem;
+}
+
+.quantity {
+  border: 1px solid #ddd;
+  padding: 6px 15px;
+  font-size: 1.125rem;
+}
+.nav-tabs{
+    padding-bottom:12px;
+}
+.nav-tabs .nav-link {
+  color: #0F0200;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  position: relative;
+}
+
+.nav-tabs .nav-link.active {
+  color: #F83D8E; 
+}
+
+.nav-tabs .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 100%;
+  background-color: #F83D8E; 
+}
+/*  */
+.Related-Products-section{
+    padding-top: 0;
+    margin-top: 0 !important;
+}
+.icon-heart {
+  background-color: rgba(255, 255, 255, 1);
+  top: 12px;
+  left: 7px;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+.cards {
+  margin-top: 4rem;
+}
+.classic-leftimage {
+  width: 17.6875rem !important;
+  height: 27.3125rem !important;
+}
+.classic-rightimage {
+  width: 13.25rem !important;
+  height: 31.25rem !important;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  width: 15.9375rem;
+  height: 28.3125rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  padding-top: 8px;
+  border: none;
+}
+.classic-image1-figure {
+  width: 11.0625rem;
+  height: 10.4375rem;
+}
+.classic-image4-figure {
+  width: 7.4375rem;
+  height: 12.4375rem;
+}
+.classic-image {
+  width: 14.5625rem;
+  height: 15.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 0.625rem;
+}
+.classic-image1 {
+  background-color: rgb(247, 242, 247);
+}
+.classic-image2 {
+  background-color: rgb(255, 238, 238);
+}
+.classic-image3 {
+  background-color: rgba(246, 249, 225, 1);
+}
+.classic-image4 {
+  background-color: rgba(255, 250, 244, 1);
+}
+.container-classic {
+  margin: 8.5rem 20.3%;
+  padding: 1rem;
+}
+.star {
+  color: #fbab2a;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.75rem; /* 100% */
+}
+.rate {
+  font-size: 0.875rem;
+  margin-top: -4.5px;
+  margin-left: 4px;
+}
+.classic-price {
+  color: #f83d8e;
+  font-family: Archivo;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;line-height: 1.375rem; /* 100% */
+}
+.iconCar {
+  background-color: #683292;
+  width: 2.875rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-left:6.7rem;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .container-single-product {
+    margin: 8rem 10% 5.88rem;
+  }
+}

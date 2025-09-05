@@ -1,0 +1,119 @@
+:root {
+  --main-color: #f83d8e;
+  --sec-color: #646464;
+  --black: #212529;
+  --main-font-size: 16px;
+  --white: #ffffff;
+}
+
+body:nth-child(2) {
+  margin-top: 80px;
+}
+
+Img {
+  width: 100%;
+  height: 100%;
+}
+.fontArchivo {
+  font-family: Archivo;
+}
+
+.whiteColor {
+  color: var(--white);
+}
+.whiteBackground {
+  background-color: var(--white);
+}
+.binkColor {
+  color: var(--main-color);
+}
+.binkBackground {
+  background-color: var(--main-color);
+}
+.grayColor {
+  color: var(--sec-color);
+}
+.grayBackground {
+  background-color: var(--sec-color);
+}
+.blackColor {
+  color: var(--black);
+}
+.fontSize-1-375 {
+  font-size: 1.375rem;
+}
+.fontSize-1-25 {
+  font-size: 1.25rem;
+}
+.fontSize-3-75 {
+  font-size: 3.75rem;
+}
+.fw-700 {
+  font-weight: 700;
+}
+button {
+  padding: 0rem 2.29256rem 0rem 2.3125rem;
+  height: 3.875rem;
+  justify-content: center;
+  gap: 1.10263rem;
+  border-radius: 1.875rem;
+  border: none;
+  color: var(--white);
+  font-family: Archivo;
+  /* margin-top: 2.09rem; */
+}
+
+@media (max-width: 410px) {
+  .cards {
+    margin: 10% auto;
+  }
+  .reliveImg {
+    height: 35.25rem;
+  }
+  .cards {
+    padding-left: 16.5%;
+  }
+}
+@media (max-width: 580px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (max-width: 460px) {
+  .classic-rightimage,
+  .classic-leftimage {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .hero {
+    padding: 1rem 2rem;
+  }
+  .img-container {
+    display: none;
+  }
+  .container-classic {
+    margin: 8.5rem 20%;
+    justify-content: center;
+  }
+  .badge-discount {
+    top: 29%;
+  }
+  .footer .f-row1 > div {
+    padding: 2rem 1rem;
+  }
+  .classic-circle {
+    left: 8.44rem;
+  }
+  .classic-ltriangle {
+    right: 10.8rem;
+  }
+}
+
+/* Media Queries */
+
+/* dot-slider */

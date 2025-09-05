@@ -1,0 +1,83 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Berkshire Swash";
+}
+html {
+  font-size: 12px;
+}
+.ourTeam {
+  padding: 9.3rem 0;
+  background: linear-gradient(
+    106deg,
+    #efd7ef 8%,
+    #f5f9fc 40%,
+    #f8eae1 66%,
+    #eaf8f9 91%
+  );
+}
+.teamTitle {
+  color: #0f0200;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.linkTeam {
+color: #0F0200;
+font-size: 1.125rem;
+  text-decoration: none;
+  margin:0 4px;
+}
+.active-link-team {
+    color: #F83D8E;
+}
+.links-Team {
+   width: 11.44938rem;
+   margin: auto;
+   padding:0.7rem 2rem;
+border-radius: 2.1875rem;
+}
+/* teamMembers */
+.teamMembers{margin-top: 8.5rem;}
+.teamContent{
+    margin: 3rem 24rem;
+    padding: 1rem;
+}
+
+.imgTeam{
+    width: 235.5px;
+height: 235.5px;
+
+}
+.rowgap{
+  gap: 30px;
+  margin-bottom: 50px !important;
+}
+.teamMember{
+width: 262.5px !important;
+}
+.social-icons {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+.icon {
+  background-color: #fd429d;
+  color: white;
+  border-radius: 50%;
+  padding: 0.75rem;
+  font-size:12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.icon:hover {
+  background-color: #e0358d; /* darker pink */
+}

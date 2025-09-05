@@ -1,0 +1,133 @@
+/* General  */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 13.3px;
+  font-family: "Berkshire Swash", cursive;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --main-color: #f83d8e;
+  --sec-color: #646464;
+  --black: #212529;
+  --main-font-size: 16px;
+}
+.binkColor {
+  color: var(--main-color);
+}
+.binkBackground {
+  background-color: var(--main-color);
+}
+.grayColor {
+  color: var(--sec-color);
+}
+.grayBackground {
+  background-color: var(--sec-color);
+}
+.blackColor {
+  color: var(--black);
+}
+.fontSize-1-375 {
+  font-size: 1.375rem;
+}
+.fontSize-3-75 {
+  font-size: 3.75rem;
+}
+.fw-400 {
+  font-weight: 400;
+}
+
+/*! ==================soon section ================= */
+.soon-page {
+  width: 100vw;
+  height: 100vh;
+  /* opacity: 0.65; */
+  background: linear-gradient(
+    307deg,
+    #efd7ef 8%,
+    #f5f9fc 43%,
+    #f8eae1 64%,
+    #eaf8f9 87%
+  );
+}
+.soon-page .soon-content .f-logo {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+.soon-page .soon-content .f-logo {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+.soon-page .soon-content .f-logo .icy {
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+  line-height: 6.75rem;
+}
+.soon-page .soon-content .f-logo .tales {
+  color: #77449c;
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+  line-height: 6.75rem;
+}
+.soon-page .soon-content .soon-title {
+  font-family: "Berkshire Swash";
+  font-size: 8.75rem;
+  line-height: 8.75rem;
+}
+.soon-des {
+  color: #646464;
+  font-family: Archivo;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+.subscribe-wrapper {
+  background: white;
+  border-radius: 1.5625rem;
+  max-width: 33.75rem;
+  width: 100%;
+  box-shadow: 0px 1px 94px 1px rgba(0, 0, 0, 0.03);
+}
+.form-control {
+  border: none;
+  border-radius: 3rem 0 0 3rem;
+  padding: 0.7rem 1.25rem;
+}
+.btn-submit {
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0rem 1.5625rem 1.5625rem 0rem;
+  border: 1px solid #f83d8e;
+  background: #f83d8e;
+}
+.btn-submit:hover {
+  background-color: #f83d8e;
+  color: rgb(207, 203, 203);
+}
+.social-icons {
+  margin-top: 2rem;
+}
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 1rem;
+  border: 2px solid #f83d8e;
+  border-radius: 50%;
+  color: #f83d8e;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  background: #ff5ca2;
+  color: white;
+}

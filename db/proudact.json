@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "image": "/DB/imge/1.png",
+    "title": "Vanilla Delight",
+    "rating": "4.5/5",
+    "description": "Classic vanilla with a creamy twist.",
+    "oldPrice": "5.99",
+    "newPrice": "3.99"
+  },
+  {
+    "id": 2,
+    "image": "../DB/imge/2.png",
+    "title": "Strawberry Bliss",
+    "rating": "4.7/5",
+    "description": "Sweet and fruity treat for summer days.",
+    "oldPrice": "6.49",
+    "newPrice": "4.49"
+  },
+  {
+    "id": 3,
+    "image": "../DB/imge/3.png",
+    "title": "Chocolate Heaven",
+    "rating": "4.8/5",
+    "description": "Rich chocolate flavor with fudge swirls.",
+    "oldPrice": "6.99",
+    "newPrice": "4.99"
+  },
+  {
+    "id": 4,
+    "image": "../DB/imge/4.png",
+    "title": "Mango Tango",
+    "rating": "4.4/5",
+    "description": "Tropical mango delight in every bite.",
+    "oldPrice": "5.49",
+    "newPrice": "3.49"
+  },
+  {
+    "id": 5,
+    "image": "../DB/imge/5.png",
+    "title": "Cookies & Cream",
+    "rating": "4.6/5",
+    "description": "Crunchy cookie pieces in vanilla base.",
+    "oldPrice": "6.29",
+    "newPrice": "4.29"
+  },
+  {
+    "id": 6,
+    "image": "../DB/imge/6.png",
+    "title": "Minty Fresh",
+    "rating": "4.3/5",
+    "description": "Cool mint ice cream with choco chips.",
+    "oldPrice": "5.79",
+    "newPrice": "3.79"
+  },
+  {
+    "id": 7,
+    "image": "../DB/imge/7.jpg",
+    "title": "Caramel Swirl",
+    "rating": "4.9/5",
+    "description": "Golden caramel ribbons in smooth cream.",
+    "oldPrice": "6.59",
+    "newPrice": "4.59"
+  },
+  {
+    "id": 8,
+    "image": "../DB/imge/8.jpg",
+    "title": "Pistachio Dream",
+    "rating": "4.2/5",
+    "description": "Nutty flavor lovers' perfect choice.",
+    "oldPrice": "6.19",
+    "newPrice": "4.19"
+  },
+  {
+    "id": 9,
+    "image": "../DB/imge/9.jpg",
+    "title": "Blueberry Burst",
+    "rating": "4.6/5",
+    "description": "Tangy blueberry flavor with real fruit.",
+    "oldPrice": "6.49",
+    "newPrice": "4.49"
+  },
+  {
+    "id": 10,
+    "image": "../DB/imge/10.jpg",
+    "title": "Hazelnut Cream",
+    "rating": "4.7/5",
+    "description": "Creamy hazelnut in every scoop.",
+    "oldPrice": "6.89",
+    "newPrice": "4.89"
+  },
+  {
+    "id": 11,
+    "image": "../DB/imge/11.jpg",
+    "title": "Coffee Rush",
+    "rating": "4.5/5",
+    "description": "Perfect mix of coffee and cream.",
+    "oldPrice": "5.99",
+    "newPrice": "3.99"
+  },
+  {
+    "id": 12,
+    "image": "../DB/imge/12.jpg",
+    "title": "Lemon Zing",
+    "rating": "4.1/5",
+    "description": "Refreshing lemon sorbet style.",
+    "oldPrice": "5.29",
+    "newPrice": "3.29"
+  },
+  {
+    "id": 13,
+    "image": "../DB/imge/13.png",
+    "title": "Peanut Crunch",
+    "rating": "4.4/5",
+    "description": "Nutty peanut butter with crunch.",
+    "oldPrice": "6.39",
+    "newPrice": "4.39"
+  },
+  {
+    "id": 14,
+    "image": "../DB/imge/14.png",
+    "title": "Raspberry Ripple",
+    "rating": "4.3/5",
+    "description": "Sweet raspberry swirls in cream.",
+    "oldPrice": "5.69",
+    "newPrice": "3.69"
+  },
+  {
+    "id": 15,
+    "image": "../DB/imge/15.png",
+    "title": "Coconut Chill",
+    "rating": "4.2/5",
+    "description": "Cool coconut with a silky finish.",
+    "oldPrice": "5.99",
+    "newPrice": "3.99"
+  },
+  {
+    "id": 16,
+    "image": "../DB/imge/16.png",
+    "title": "Berry Blast",
+    "rating": "4.6/5",
+    "description": "Mix of strawberries, raspberries & more.",
+    "oldPrice": "6.79",
+    "newPrice": "4.79"
+  },
+  {
+    "id": 17,
+    "image": "../DB/imge/17.png",
+    "title": "Brownie Fudge",
+    "rating": "4.9/5",
+    "description": "Chewy brownie chunks and fudge swirl.",
+    "oldPrice": "6.99",
+    "newPrice": "4.99"
+  },
+  {
+    "id": 18,
+    "image": "../DB/imge/18.png",
+    "title": "Banana Split",
+    "rating": "4.5/5",
+    "description": "Banana flavor with cherry topping.",
+    "oldPrice": "6.29",
+    "newPrice": "4.29"
+  },
+  {
+    "id": 19,
+    "image": "../DB/imge/19.png",
+    "title": "Almond Joy",
+    "rating": "4.3/5",
+    "description": "Creamy almond mix with choco bits.",
+    "oldPrice": "6.59",
+    "newPrice": "4.59"
+  },
+  {
+    "id": 20,
+    "image": "../DB/imge/20.png",
+    "title": "Orange Creamsicle",
+    "rating": "4.4/5",
+    "description": "Zesty orange with vanilla cream.",
+    "oldPrice": "5.89",
+    "newPrice": "3.89"
+  },
+  {
+    "id": 21,
+    "image": "../DB/imge/21.png",
+    "title": "Matcha Magic",
+    "rating": "4.2/5",
+    "description": " Smooth green tea flavored delight.",
+    "oldPrice": "6.49",
+    "newPrice": "4.49"
+  },
+  {
+    "id": 22,
+    "image": "../DB/imge/22.png",
+    "title": "Cherry Bomb",
+    "rating": "4.6/5",
+    "description": "Juicy cherries with sweet cream.",
+    "oldPrice": "6.19",
+    "newPrice": "4.19"
+  }
+]

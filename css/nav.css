@@ -1,0 +1,365 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font size root */
+html {
+  font-size: 75%;
+}
+
+:root {
+  --main-linear-gradient: linear-gradient(
+    106deg,
+    #efd7ef 8%,
+    #f5f9fc 40%,
+    #f8eae1 66%,
+    #eaf8f9 91%
+  );
+
+  body:nth-child(2) {
+    margin-top: 80px;
+  }
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  --main-color: #f83d8e;
+  --secondary-color: #683292;
+  --tertiary-color: #f69c0c;
+
+  --main-color-hover: #e32d76;
+  --secondary-color-hover: #5c267d;
+  --tertiary-color-hover: #e68a0e;
+
+  --main-text-color: #0f0200;
+  --secondary-text-color: #646464;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fce4ec;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f06292;
+  border-radius: 10px;
+  border: 2px solid #fce4ec;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ec407a;
+}
+
+/* utils class */
+.bs-font {
+  font-family: "Berkshire Swash", serif;
+}
+
+.archivo-font {
+  font-family: "Archivo", sans-serif;
+}
+
+/* General Layout */
+.nav-g {
+  gap: 3rem !important;
+}
+
+.container-nav {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 11.5625rem;
+  height: 4.375rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* Navigation Links */
+.navbar-nav {
+  gap: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-nav .nav-link {
+  color: var(--main-text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+#active {
+  color: var(--main-color);
+}
+
+/* Icon and Button Container */
+.nav-icon {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon img,
+.nav-icon i {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Button */
+.cont-btn {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  display: flex;
+  max-width: 13.5rem;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 1.875rem;
+  background: #f83d8e;
+  box-shadow: 0px 3px 22px 3px rgba(248, 61, 142, 0.31);
+  width: auto;
+}
+
+/* Cart Count */
+.cart-nav {
+  position: relative;
+}
+
+.cart-count-nav {
+  position: absolute;
+  bottom: -1px;
+  right: -2px;
+  display: flex;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #683292;
+  color: #fff;
+  font-size: 0.4375rem;
+  font-weight: 400;
+  line-height: 0.8125rem;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 2rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .nav-icon {
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .cont-btn {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 9rem;
+    height: auto;
+  }
+
+  .cont-btn {
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .nav-icon img,
+  .nav-icon i {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* footer */
+.footer {
+  padding: 5rem 5rem 0;
+  background-color: #683292;
+  color: #fff;
+  font-family: "Archivo";
+  position: relative;
+}
+.footer.f-home2 {
+  margin-top: 15rem;
+}
+.footer .footer-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15rem;
+}
+
+.footer .f-logo {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  font-family: "Berkshire Swash";
+  font-size: 2rem;
+}
+.footer .f-logo img {
+  width: 25%;
+}
+.footer h4 {
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+.footer .ul-cont ul {
+  padding-left: 1rem;
+}
+.footer .ul-cont li::marker {
+  color: var(--main-color);
+}
+.footer .ul-cont li {
+  padding: 1rem 0;
+}
+.footer .ul-cont li a {
+  color: #cfb6e2;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer .f-address i {
+  border-radius: 6.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem !important;
+  height: 2.8rem !important;
+  margin: 0.3rem 1.3rem 0 0;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.footer .f-address p,
+.footer .f-phone p {
+  color: #cfb6e2;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.footer .f-phone div:first-child i {
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+.footer .icons-social i {
+  border-radius: 6.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+.footer .f-row2 {
+  color: #cfb6e2;
+  text-align: center;
+  font-family: "Archivo";
+  font-size: 0.75rem;
+  font-weight: 400;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 11px;
+  }
+  .home2 .labl20 {
+    top: -2%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .home2 .labl20 {
+    top: 13%;
+    left: 8%;
+    width: 6rem;
+    height: 6rem;
+    font-size: 1.5rem;
+  }
+  .home2 .dotedarrow {
+    top: 3%;
+    width: 10rem;
+  }
+  .home2 .rel-home2-img {
+    margin-top: 2rem;
+  }
+  .happy-fans .cont .fan-pos {
+    display: none;
+  }
+  .happy-fans .cont {
+    width: 100%;
+    padding: 6rem;
+  }
+  .footer .f-row1 > div {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer .f-row1 .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer .scroll-to-top {
+  right: 3%;
+  bottom: 15%;
+  padding: 1rem 1.25rem;
+  background-color: var(--main-color);
+  text-decoration: none;
+}
+.footer .scroll-to-top i {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.084rem;
+  font-weight: 900;
+  line-height: 1.25rem;
+}

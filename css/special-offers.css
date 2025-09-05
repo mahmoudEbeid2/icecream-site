@@ -1,0 +1,739 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font size root */
+html {
+  font-size: 75%;
+}
+
+:root {
+  --main-linear-gradient: linear-gradient(
+    106deg,
+    #efd7ef 8%,
+    #f5f9fc 40%,
+    #f8eae1 66%,
+    #eaf8f9 91%
+  );
+
+  --main-color: #f83d8e;
+  --secondary-color: #683292;
+  --tertiary-color: #f69c0c;
+
+  --main-color-hover: #e32d76;
+  --secondary-color-hover: #5c267d;
+  --tertiary-color-hover: #e68a0e;
+
+  --main-text-color: #0f0200;
+  --secondary-text-color: #646464;
+}
+
+/* utils class */
+.bs-font {
+  font-family: "Berkshire Swash", serif;
+}
+
+.archivo-font {
+  font-family: "Archivo", sans-serif;
+}
+
+/* header */
+body:nth-child(2) {
+  margin-top: 80px;
+}
+
+.spacial-offers-header {
+  background-image: var(--main-linear-gradient);
+  height: 29.1875rem;
+}
+
+.spacial-offers-title {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  color: var(--main-text-color);
+}
+
+.spacial-offers-nav {
+  border-radius: 2.1875rem;
+  background: #fff;
+  box-shadow: 0px 2px 73px 2px rgba(0, 0, 0, 0.05);
+  width: 22.34938rem;
+  margin: 2.19rem auto;
+}
+
+.spacial-offers-list {
+  padding: 1.06rem;
+}
+
+.spacial-offers-list a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  padding: 1.06rem;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.spacial-offers-list li:not(:first-child) a {
+  color: var(--main-text-color);
+}
+
+.spacial-offers-list li:not(:first-child) a:hover {
+  color: var(--main-color-hover);
+}
+
+.spacial-offers-list li:first-child a {
+  color: var(--main-color);
+}
+
+.spacial-offers-list li:first-child a:hover {
+  color: var(--main-text-color);
+}
+
+.spacial-offers-list li:not(:first-child) a::before {
+  content: "/";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+/* discaunt  */
+.spacial-offers-discaunt {
+  padding-top: 8.5rem;
+}
+
+.spacial-offers-discaunt-title {
+  color: var(--main-text-color);
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 0.81rem;
+}
+
+.spacial-offers-discaunt-title span {
+  color: var(--main-color);
+}
+
+.spacial-offers-discaunt-text {
+  color: var(--secondary-text-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.spacial-offers-discaunt-container {
+  gap: 1.875rem;
+  margin: 3.12rem auto;
+}
+
+.spacial-offers-discaunt-card {
+  width: 15.9375rem;
+  height: 28.5625rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0px 2px 73px 2px rgba(0, 0, 0, 0.05) inset;
+}
+
+.spacial-offers-discaunt-card-img {
+  width: 14.5625rem;
+  height: 15.25rem;
+  border-radius: 0.625rem;
+  background: #ffeff0;
+  position: relative;
+  overflow: hidden;
+  margin: 0.69rem;
+}
+
+.spacial-offers-discaunt-card-img img {
+  width: 10.6875rem;
+  height: 10.875rem;
+}
+
+.spacial-offers-discaunt-card-heart {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.spacial-offers-discaunt-card-heart i {
+  color: var(--main-text-color);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.spacial-offers-discaunt-card-heart:hover {
+  background: var(--main-color-hover);
+}
+
+.spacial-offers-discaunt-card-heart:hover i {
+  color: #fff;
+}
+
+.spacial-offers-discaunt-card-discount {
+  position: absolute;
+  top: 0.8rem;
+  right: -1.2rem;
+  width: 6.04875rem;
+  height: 1.50025rem;
+  transform: rotate(42deg);
+  padding: 0.31281rem 1.35194rem 0.31256rem 1.375rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.spacial-offers-discaunt-card-discount p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.75rem;
+}
+
+.spacial-offers-discaunt-card-body {
+  padding: 1.56rem 1.19rem 1.81rem 1.44rem;
+}
+
+.spacial-offers-discaunt-card-title {
+  color: var(--main-text-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.spacial-offers-discaunt-card-rating {
+  gap: 0.19rem;
+}
+
+.spacial-offers-discaunt-card-rating i {
+  color: #fbab2a;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 0.75rem;
+}
+
+.spacial-offers-discaunt-card-rating span {
+  color: var(--main-text-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.spacial-offers-discaunt-card-text {
+  color: var(--secondary-text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.spacial-offers-discaunt-card-price {
+  gap: 0.29rem;
+}
+
+.spacial-offers-discaunt-card-old-price {
+  color: var(--secondary-text-color);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  text-decoration-line: line-through;
+}
+
+.spacial-offers-discaunt-card-new-price {
+  color: var(--main-color);
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+}
+
+.spacial-offers-discaunt-card-cart {
+  background-color: var(--secondary-color);
+  width: 2.875rem;
+  height: 2.875rem;
+  padding: 0.8rem 0.6875rem 0.7rem 0.6875rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.spacial-offers-discaunt-card-cart i {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.spacial-offers-discaunt-card-cart:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+.carousel-indicators {
+  bottom: -3.12rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 0.8125rem;
+  width: 0.8125rem;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.carousel-indicators button.active {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  background-color: var(--main-color);
+}
+
+/* spacial summer */
+.spacial-offers-summer {
+  height: 44.75rem;
+  margin-top: 10.94rem;
+  background-color: var(--secondary-color);
+}
+
+.spacial-offers-summer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 61.19938rem;
+  height: 44.75rem;
+  background-color: var(--main-color);
+  clip-path: polygon(25rem 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.spacial-offers-summer-bg-icon-bg1 {
+  position: absolute;
+  bottom: 25.62rem;
+  left: 14.5rem;
+}
+
+.spacial-offers-summer-bg-icon-bg1 img {
+  width: 2.9375rem;
+  height: 3.25rem;
+}
+
+.spacial-offers-summer-bg-icon-bg2 {
+  position: absolute;
+  bottom: 17.19rem;
+  left: 10.5rem;
+}
+
+.spacial-offers-summer-bg-icon-bg2 img {
+  width: 5.25rem;
+  height: 1.4375rem;
+}
+
+.spacial-offers-summer-bg-icon-bg3 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.spacial-offers-summer-bg-icon-bg3 img {
+  width: 13.875rem;
+  height: 23.0625rem;
+  opacity: 0.4;
+}
+
+.spacial-offers-summer-title {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: 7rem;
+  margin-bottom: 1.69rem;
+}
+
+.spacial-offers-summer-text {
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 2.25rem;
+}
+
+.spacial-offers-summer-deal {
+  gap: 0.87rem;
+}
+
+.spacial-offers-summer-btn {
+  width: 13.19313rem;
+  height: 3.875rem;
+  gap: 1.103rem;
+  border-radius: 1.875rem;
+  background: #f83d8e;
+  box-shadow: 0px 3px 22px 3px rgba(248, 61, 142, 0.13);
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.spacial-offers-summer-btn:hover {
+  background-color: var(--main-color-hover);
+}
+
+.spacial-offers-summer-deal-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.spacial-offers-summer-img {
+  z-index: 10;
+  position: relative;
+}
+
+.spacial-offers-summer-img-discount {
+  position: absolute;
+  left: -6rem;
+  bottom: 19.9rem;
+  width: 8.625rem;
+  height: 8.625rem;
+  border-radius: 50%;
+  border: 4px solid #f69c0c;
+  background: linear-gradient(180deg, #fbab2a 0%, #ffc972 100%);
+  color: white;
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  z-index: -3;
+}
+
+.spacial-offers-summer-img-icon-bg-1 {
+  position: absolute;
+  top: 0;
+  left: -2.5rem;
+  z-index: -1;
+}
+
+.spacial-offers-summer-img-icon-bg-1 img {
+  width: 16.5625rem;
+  height: 8.3125rem;
+}
+
+.spacial-offers-summer-img-discount span {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+  z-index: 10;
+}
+
+.spacial-offers-summer-img-container img {
+  width: 35.1875rem;
+  height: 33.625rem;
+}
+
+.spacial-offers-summer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73.25rem;
+  gap: 2rem;
+  z-index: 10;
+}
+
+/* Commitments  */
+
+.Commitments {
+  background-image: var(--main-linear-gradient);
+  padding-top: 8.5rem;
+  height: 68.75rem;
+}
+
+.Commitments-title {
+  color: var(--main-text-color);
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 0.81rem;
+}
+
+.Commitments-title span {
+  color: var(--main-color);
+}
+
+.Commitments-text {
+  color: var(--secondary-text-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.Commitments-container {
+  gap: 7.44rem;
+  width: 79.25rem;
+  margin-top: 3.62rem;
+}
+
+.Commitments-cards {
+  gap: 1.75rem;
+}
+
+.Commitments-card {
+  width: 15.9375rem;
+  height: 16.3125rem;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 0.9rem;
+}
+
+.Commitments-card-icon {
+  width: 4.6875rem;
+  padding: 1.33125rem 1.25rem 1.16875rem 1.25rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.Commitments-card-icon img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.Commitments-card-title {
+  color: var(--main-text-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.Commitments-card-text {
+  color: var(--secondary-text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.Commitments-img {
+  position: relative;
+  width: 24.3125rem;
+  height: 40.25rem;
+}
+
+.Commitments-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.Commitments-img::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 30rem;
+  background: #faebe1;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+/* signup */
+.sign-up {
+  padding-top: 8.5rem;
+  height: 40.69rem;
+  position: relative;
+}
+
+.sign-up-icon-bg1 {
+  position: absolute;
+  bottom: 25.38rem;
+  right: 22.6rem;
+  z-index: -1;
+}
+
+.sign-up-icon-bg2 {
+  position: absolute;
+  bottom: 12.62rem;
+  left: 22.62rem;
+  z-index: -1;
+}
+
+.sign-up-header {
+  width: 44.44856rem;
+}
+
+.sign-up-title {
+  color: var(--main-text-color);
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 1.44rem;
+}
+
+.sign-up-title span {
+  color: var(--main-color);
+}
+
+.sign-up-text {
+  color: var(--secondary-text-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.sign-up-container {
+  margin-top: 3.44rem;
+}
+
+.sign-up-form {
+  gap: 2.33rem;
+}
+
+.sign-up-input {
+  gap: 0.62rem;
+}
+
+.sign-up-input input {
+  width: 32.5rem;
+  height: 3.875rem;
+  padding: 0rem 1.6875rem;
+  border-radius: 1.875rem;
+  background: #fff;
+  box-shadow: 0px 2px 73px 2px rgba(0, 0, 0, 0.05);
+  outline: none;
+  border: none;
+}
+
+.sign-up-input input::placeholder {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.sign-up-input input:focus {
+  border: 1px solid var(--main-color);
+}
+
+.sign-up-btn {
+  width: 12.5rem;
+  height: 3.875rem;
+  padding: 0rem 3.02506rem 0rem 3.045rem;
+  gap: 1.23056rem;
+  border-radius: 1.875rem;
+  background: #f83d8e;
+  box-shadow: 0px 3px 22px 3px rgba(248, 61, 142, 0.31);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.sign-up-btn:hover {
+  background-color: var(--main-color-hover);
+}
+
+.sign-up-checkbox {
+  gap: 0.69rem;
+}
+
+.sign-up-checkbox input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sign-up-checkbox input:checked {
+  background-color: var(--main-color);
+}
+
+.sign-up-checkbox label {
+  color: var(--secondary-text-color);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.sign-up-checkbox label a {
+  color: var(--main-color);
+}
+
+/* responsive */
+
+@media all and (max-width: 1300px) {
+  .spacial-offers-summer-bg-icon {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+
+  .sign-up-icon {
+    display: none;
+  }
+
+  .spacial-offers-summer-img {
+    display: none;
+  }
+
+  .spacial-offers-summer::after {
+    display: none;
+  }
+
+  .spacial-offers-summer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 900px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .Commitments-container {
+    gap: 2rem;
+    width: 79.25rem;
+  }
+
+  .spacial-offers-summer {
+    padding: 3rem;
+  }
+
+  .Commitments-img {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+  .sign-up-input input {
+    width: 26rem;
+  }
+}

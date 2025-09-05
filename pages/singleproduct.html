@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css//singleProduct.css" />
+    <!-- link css nav -->
+    <link rel="stylesheet" href="../css/nav.css" />
+  </head>
+  <body>
+    <header
+    class="nav fixed-top archivo-font text-capitalize bg-white py-2 d-flex justify-content-center align-items-center"
+  >
+    <div class="container-nav">
+      <nav class="navbar nav-g navbar-expand-lg w-100">
+        <a class="navbar-brand logo" href="#">
+          <img src="../assets/Link (1).png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between align-items-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav d-flex align-items-center mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../index.html">Home 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/home1.html"
+                    >Home 2</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./home-3.html">Home 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="active"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./shop.html">shop </a></li>
+                <li>
+                  <a class="dropdown-item" href="./singleProduct.html"
+                    >single product</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cheackout.html"
+                    >cheackout</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./TermsConditions.html"
+                    >tarmes & conditions</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="./team.html">team</a></li>
+                <li>
+                  <a class="dropdown-item" href="./special-offers.html"
+                    >special offer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./thankYou.html"
+                    >thank you</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./privacyPolicy.html"
+                    >privacy policy</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./loadMore.html"
+                    >load more</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./review.html">review</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./error.html">error</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./coming-soon.html"
+                    >comming soon</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../pages/oneColumn.html"
+                    >one column</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/twoColumn.html"
+                    >two column</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/threeColumn.html"
+                    >three column</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/fourColumn.html"
+                    >four column</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/faq.html">Faq's</a>
+            </li>
+          </ul>
+
+          <div class="nav-icon d-flex align-items-center">
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart-nav position-relative">
+              <a href="../pages/cart.html">
+                <img src="../assets/bty.png" alt="cart" />
+              </a>
+              <span class="cart-count-nav">0</span>
+            </div>
+            <a class="cont-btn" href="contact-us.html">
+              <span class="sub-text">Contact Us</span>
+              <i class="mt-2 fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <section class="ourTeam text-center">
+      <div>
+        <h1 class="teamTitle">Single Product Layout 01</h1>
+        <div class="links-single-product bg-white fontArchivo d-flex">
+          <a href="http://" class="active-link-team linkTeam">Home </a>/
+          <a href="http://" class="linkTeam">Shop</a>/
+          <a href="http://" class="linkTeam">Product Detail</a>
+        </div>
+      </div>
+    </section>
+    <section class="container-single-product">
+      <div class="row g-5">
+        <!-- Left side - Images -->
+        <div class="col-lg-6 d-flex me-">
+          <div class="d-flex flex-column align-items-center me-3">
+            <div class="thumb active mb-3">
+              <img
+                src="../assets/Figure → product1-sm-image1.jpg.png"
+                alt="Thumbnail 1"
+              />
+            </div>
+            <div class="thumb mb-3">
+              <img
+                src="../assets/Figure → product1-sm-image2.jpg.png"
+                alt="Thumbnail 2"
+              />
+            </div>
+            <div class="thumb mb-3">
+              <img
+                src="../assets/Figure → product1-sm-image3.jpg.png"
+                alt="Thumbnail 3"
+              />
+            </div>
+            <div class="thumb">
+              <img
+                src="../assets/Figure → product1-sm-image4.jpg.png"
+                alt="Thumbnail 4"
+              />
+            </div>
+          </div>
+          <div class="singleproduct-images flex-grow-1">
+            <img
+              src="../assets/Figure → product1-image1.jpg.png"
+              alt="Main Product"
+            />
+          </div>
+        </div>
+
+        <!-- Right side - Info -->
+        <div class="col-lg-6 fontArchivo">
+          <div class="d-flex align-items-center mb-4">
+            <div class="text-warning me-2">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="small mb-0">(4.9/5)</h5>
+          </div>
+          <h2 class="fw-700 mb-3">Classic Vanilla Ice Cream</h2>
+          <h2 class="fw-bold mb-4" style="color: #683292">$5.99</h2>
+          <p class="grayColor">
+            Neque porro ruisquam est aui dolorem iesum ruia do sit amet<br />
+            consectetur, adipisci velit, sed quia non num eius modi tempoa<br />
+            incidunt ut labore et dolore magna.
+          </p>
+
+          <div class="my-4">
+            <h4 class="fw-700">Color:</h4>
+            <div class="color-picker d-flex gap-2">
+              <span class="circle-dot">
+                <span
+                  class="color-dot"
+                  style="background-color: rgba(190, 42, 54, 1)"
+                ></span>
+              </span>
+              <span class="circle-dot">
+                <span
+                  class="color-dot"
+                  style="background-color: rgba(228, 204, 175, 1)"
+                ></span>
+              </span>
+              <span class="circle-dot">
+                <span
+                  class="color-dot"
+                  style="background-color: rgba(188, 236, 159, 1)"
+                ></span>
+              </span>
+              <span class="circle-dot">
+                <span
+                  class="color-dot"
+                  style="background-color: rgba(154, 95, 46, 1)"
+                ></span>
+              </span>
+            </div>
+          </div>
+          <div class=" ">
+            <h4 class="fw-700">Size:</h4>
+            <div class="mt-4">
+              <span class="size-btn">L</span>
+              <span class="size-btn">M</span>
+              <span class="size-btn">S</span>
+            </div>
+          </div>
+
+          <div class="d-flex g-4 mt-3">
+            <div class="quantity-control d-flex align-items-center mt-5 me-5">
+              <span class="quantity-btn ms-3">-</span>
+              <span class="quantity">1</span>
+              <span class="quantity-btn me-3">+</span>
+            </div>
+
+            <div class="d-flex gap-3 my-3 mt-1">
+              <button
+                class="binkBackground"
+                style="box-shadow: 0px 3px 22px 3px rgba(248, 61, 142, 0.31)"
+              >
+                Add to Cart <i class="ms-2 fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="d-flex gap-5 mt-4 fontSize-1-25">
+            <a href="#" class="grayColor me-3"
+              ><i class="far fa-heart me-2"></i> Add to wishlist</a
+            >
+            <a href="#" class="grayColor ms-5">Compare</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="mt-5">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              class="tab"
+              id="desc-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#desc"
+              type="button"
+              role="tab"
+            >
+              Description
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="info-tab"
+              class="tab"
+              data-bs-toggle="tab"
+              data-bs-target="#info"
+              type="button"
+              role="tab"
+            >
+              Additional Information
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="reviews-tab"
+              class="tab"
+              data-bs-toggle="tab"
+              data-bs-target="#reviews"
+              type="button"
+              role="tab"
+            >
+              Reviews
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent  fontArchivo">
+          <div
+            class="tab-pane fontArchivo grayColor fade show active"
+            id="desc"
+            role="tabpanel"
+          >
+            <p class="mt-3 mb-4">
+              Quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi
+              nesciunt porro quisquam est, qui dolore ipsum quia dolor sit amet,
+              consectetur, adipisci velit, sed quia non numquam eius modi
+              tempora incidunt ut labore et dolore magnam aliquam quaerat
+              voluptate ruis aute irure dolor in reprehenderit.
+            </p>
+            <p class="mt-3">
+              Ratione volurtatem serui nesciunt neaue porro quisquam est, qui
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+              sed quia non numquam eius modi tempora incidunt ut labore et
+              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur commodi consequatur incidunt ut labore et dolore
+              magnam.
+            </p>
+          </div>
+          <div
+            class="tab-pane fade fontArchivo grayColor"
+            id="info"
+            role="tabpanel"
+          >
+            <p class="mt-3">
+              Ratione volurtatem serui nesciunt neaue porro quisquam est, qui
+              dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+              sed quia non numquam eius modi tempora incidunt ut labore et
+              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur.
+            </p>
+          </div>
+          <div
+            class="tab-pane fade fontArchivo grayColor"
+            id="reviews"
+            role="tabpanel"
+          >
+            <p class="mt-3">
+              Quia voluptas sit aspernatur aut odit aut fugit, sed quia
+              consequuntur magni dolores eos qui ratione voluptatem sequi
+              nesciunt porro quisquam est, qui dolore ipsum quia dolor sit amet,
+              consectetur, adipisci velit, sed quia non numquam eius modi
+              tempora incidunt ut labore et dolore magnam aliquam quaerat
+              voluptate ruis aute irure dolor in reprehenderit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="position-relative Related-Products-section">
+      <div class="container-classic text-center">
+        <h2 class="display-5 mb-3 w-100">
+          Our <span class="binkColor fontSize-3-75"> Related </span> Products
+        </h2>
+        <p class="grayColor fontArchivo fontSize-1-375 w-100">
+          Choose from some of related products
+        </p>
+
+        <div class="row cards g-4 justify-content-center">
+          <div class="col">
+            <div class="card pb-2 h-100 shadow-sm">
+              <div class="classic-image1 classic-image position-relative">
+                <span class="icon-heart bg-white position-absolute"
+                  ><i class="far fa-heart"></i
+                ></span>
+                <div class="classic-image1-figure">
+                  <img
+                    src="../assets/Figure → seller-image1.png (1).png"
+                    class="card-img-top p-3"
+                    alt="Chocolate Brownie Sundae"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5
+                    class="card-title fontArchivo font-1-25 fw-700 text-start"
+                  >
+                    Chocolate Chip Cookie Cone
+                  </h5>
+                  <div class="d-flex">
+                    <span class="star">★</span>
+                    <p class="rate">4.9/5</p>
+                  </div>
+                </div>
+                <p class="card-text grayColor fontArchivo text-start">
+                  Chocolate chip cookie dough ice cream in a cone.
+                </p>
+              </div>
+              <div class="d-flex justify-content-lg-between ms-3 me-3">
+                <p
+                  class="binkColor fontArchivo fw-700 text-start classic-price"
+                >
+                  $5.49
+                </p>
+                <div class="iconCar">
+                  <i class="fas fa-shopping-cart text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pb-2 h-100 shadow-sm">
+              <div class="classic-image2 classic-image position-relative">
+                <span class="icon-heart bg-white position-absolute"
+                  ><i class="far fa-heart"></i
+                ></span>
+                <div class="classic-image4-figure">
+                  <img
+                    src="../assets/Figure → seller-image2.png (1).png"
+                    class="card-img-top p-3"
+                    alt="Chocolate Brownie Sundae"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5
+                    class="card-title fontArchivo font-1-25 fw-700 text-start"
+                  >
+                    Rocky Road Sundae
+                  </h5>
+                  <div class="d-flex">
+                    <span class="star">★</span>
+                    <p class="rate">4.9/5</p>
+                  </div>
+                </div>
+                <p class="card-text grayColor fontArchivo text-start">
+                  Marshmallow and nutty rocky road ice cream
+                </p>
+              </div>
+              <div class="d-flex justify-content-lg-between ms-3 me-3">
+                <p
+                  class="binkColor fontArchivo fw-700 text-start classic-price"
+                >
+                  $5.29
+                </p>
+                <div class="iconCar">
+                  <i class="fas fa-shopping-cart text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pb-2 h-100 shadow-sm">
+              <div class="classic-image3 classic-image position-relative">
+                <span class="icon-heart bg-white position-absolute"
+                  ><i class="far fa-heart"></i
+                ></span>
+                <div class="classic-image1-figure">
+                  <img
+                    src="../assets/Figure → seller-image3.png (1).png"
+                    class="card-img-top p-3"
+                    alt="Chocolate Brownie Sundae"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5
+                    class="card-title fontArchivo font-1-25 fw-700 text-start"
+                  >
+                    Peach Melba Sundae
+                  </h5>
+                  <div class="d-flex">
+                    <span class="star">★</span>
+                    <p class="rate">4.9/5</p>
+                  </div>
+                </div>
+                <p class="card-text grayColor fontArchivo text-start">
+                  Peach ice cream topped with raspberry sauce
+                </p>
+              </div>
+              <div class="d-flex justify-content-lg-between ms-3 me-3">
+                <p
+                  class="binkColor fontArchivo fw-700 text-start classic-price"
+                >
+                  $3.99
+                </p>
+                <div class="iconCar">
+                  <i class="fas fa-shopping-cart text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pb-2 h-100 shadow-sm">
+              <div class="classic-image4 classic-image position-relative">
+                <span class="icon-heart bg-white position-absolute"
+                  ><i class="far fa-heart"></i
+                ></span>
+                <div class="classic-image1-figure">
+                  <img
+                    src="../assets/Figure → seller-image4.png (1).png"
+                    class="card-img-top p-3"
+                    alt="Chocolate Brownie Sundae"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5
+                    class="card-title fontArchivo font-1-25 fw-700 text-start"
+                  >
+                    Strawberry Sundae
+                  </h5>
+                  <div class="d-flex">
+                    <span class="star">★</span>
+                    <p class="rate">4.9/5</p>
+                  </div>
+                </div>
+                <p class="card-text grayColor fontArchivo text-start">
+                  Strawberry ice cream with fresh strawberries
+                </p>
+              </div>
+              <div class="d-flex justify-content-lg-between ms-3 me-3">
+                <p
+                  class="binkColor fontArchivo fw-700 text-start classic-price"
+                >
+                  $4.99
+                </p>
+                <div class="iconCar">
+                  <i class="fas fa-shopping-cart text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-cont container">
+        <div class="row f-row1">
+          <div class="col-12 col-sm-6 col-md-3 f-logo">
+            <img src="../assets/f-logo.png" alt="logo" />
+            <span class="binkColor">Icy</span>Tales
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4>Navigation</h4>
+            <div class="d-flex gap-5 ul-cont">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shope</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Prodects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="f-address d-flex">
+              <div><i class="fa-solid fa-location-dot"></i></div>
+
+              <div>
+                <h5>Address:</h5>
+                <p>121 King Street Melbourne, 3000, Australia</p>
+              </div>
+            </div>
+            <div class="f-address d-flex">
+              <div><i class="fa-solid fa-envelope-open-text"></i></div>
+
+              <div>
+                <h5>Email:</h5>
+                <p>info@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="f-phone">
+              <div class="d-flex gap-3">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <h4>+123456780123</h4>
+                  <p>Got Questions? Call us 24/7</p>
+                </div>
+              </div>
+              <div class="icons-social d-flex gap-3">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row f-row2 align-center">
+          <p class="col-12">
+            Copyright &copy; 2024 BlackRise Themes Inc All rights reserved.
+          </p>
+        </div>
+      </div>
+      <img
+        src="../assets/footer-image.png.png"
+        class="footer-img"
+        alt="footer img"
+      />
+      <a
+        href="#"
+        class="scroll-to-top position-absolute binkBackground rounded-3 d-flex align-items-center justify-content-center"
+        ><i class="fa-solid fa-arrow-up text-white"></i
+      ></a>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
