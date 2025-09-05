@@ -50,7 +50,7 @@ body:nth-child(2) {
 
 /* mohamed code */
 .home2 {
-  background-image: url("../Assets/background home 2.jpeg");
+  background-image: url("../assets/background home 2.jpeg");
   padding: 7rem 5rem;
   width: 100%;
   position: relative;
@@ -241,7 +241,7 @@ img {
 .free-vegan .bgg-img {
   width: 100%;
   height: 100%;
-  background-image: url(../Assets/free\ vegan.png);
+  background-image: url(../assets/free\ vegan.png);
   background-position: center center;
   background-size: cover;
   object-fit: cover;
@@ -302,7 +302,7 @@ img {
 /* SETION 5  limited*/
 .limited {
   padding: 8rem 0;
-  background-image: url("../Assets/limitedjpeg.jpeg");
+  background-image: url("../assets/limitedjpeg.jpeg");
 }
 .limited .cont {
   text-align: center;

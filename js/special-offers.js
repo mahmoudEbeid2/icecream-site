@@ -3,7 +3,7 @@ const carouselIndicators = document.querySelector(".carousel-indicators");
 
 async function loadProducts() {
   try {
-    const response = await fetch("../DB/proudact.json");
+    const response = await fetch("../db/proudact.json");
     const allProudacts = await response.json();
     creatCarsoul(allProudacts);
   } catch (error) {

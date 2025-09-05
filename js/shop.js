@@ -9,7 +9,7 @@ let allProudacts = [];
 
 async function loadProducts() {
   try {
-    const response = await fetch("../DB/proudact.json");
+    const response = await fetch("../db/proudact.json");
     allProudacts = await response.json();
     renderPage();
   } catch (error) {

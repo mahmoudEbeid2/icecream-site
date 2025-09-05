@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/DB/imge/1.png",
+    "image": "../db/imge/1.png",
     "title": "Vanilla Delight",
     "rating": "4.5/5",
     "description": "Classic vanilla with a creamy twist.",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "../DB/imge/2.png",
+    "image": "../db/imge/2.png",
     "title": "Strawberry Bliss",
     "rating": "4.7/5",
     "description": "Sweet and fruity treat for summer days.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "../DB/imge/3.png",
+    "image": "../db/imge/3.png",
     "title": "Chocolate Heaven",
     "rating": "4.8/5",
     "description": "Rich chocolate flavor with fudge swirls.",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "../DB/imge/4.png",
+    "image": "../db/imge/4.png",
     "title": "Mango Tango",
     "rating": "4.4/5",
     "description": "Tropical mango delight in every bite.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "../DB/imge/5.png",
+    "image": "../db/imge/5.png",
     "title": "Cookies & Cream",
     "rating": "4.6/5",
     "description": "Crunchy cookie pieces in vanilla base.",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "../DB/imge/6.png",
+    "image": "../db/imge/6.png",
     "title": "Minty Fresh",
     "rating": "4.3/5",
     "description": "Cool mint ice cream with choco chips.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "image": "../DB/imge/7.jpg",
+    "image": "../db/imge/7.jpg",
     "title": "Caramel Swirl",
     "rating": "4.9/5",
     "description": "Golden caramel ribbons in smooth cream.",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "image": "../DB/imge/8.jpg",
+    "image": "../db/imge/8.jpg",
     "title": "Pistachio Dream",
     "rating": "4.2/5",
     "description": "Nutty flavor lovers' perfect choice.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "image": "../DB/imge/9.jpg",
+    "image": "../db/imge/9.jpg",
     "title": "Blueberry Burst",
     "rating": "4.6/5",
     "description": "Tangy blueberry flavor with real fruit.",
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "image": "../DB/imge/10.jpg",
+    "image": "../db/imge/10.jpg",
     "title": "Hazelnut Cream",
     "rating": "4.7/5",
     "description": "Creamy hazelnut in every scoop.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 11,
-    "image": "../DB/imge/11.jpg",
+    "image": "../db/imge/11.jpg",
     "title": "Coffee Rush",
     "rating": "4.5/5",
     "description": "Perfect mix of coffee and cream.",
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "image": "../DB/imge/12.jpg",
+    "image": "../db/imge/12.jpg",
     "title": "Lemon Zing",
     "rating": "4.1/5",
     "description": "Refreshing lemon sorbet style.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "image": "../DB/imge/13.png",
+    "image": "../db/imge/13.png",
     "title": "Peanut Crunch",
     "rating": "4.4/5",
     "description": "Nutty peanut butter with crunch.",
@@ -118,7 +118,7 @@
   },
   {
     "id": 14,
-    "image": "../DB/imge/14.png",
+    "image": "../db/imge/14.png",
     "title": "Raspberry Ripple",
     "rating": "4.3/5",
     "description": "Sweet raspberry swirls in cream.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "image": "../DB/imge/15.png",
+    "image": "../db/imge/15.png",
     "title": "Coconut Chill",
     "rating": "4.2/5",
     "description": "Cool coconut with a silky finish.",
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "image": "../DB/imge/16.png",
+    "image": "../db/imge/16.png",
     "title": "Berry Blast",
     "rating": "4.6/5",
     "description": "Mix of strawberries, raspberries & more.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "image": "../DB/imge/17.png",
+    "image": "../db/imge/17.png",
     "title": "Brownie Fudge",
     "rating": "4.9/5",
     "description": "Chewy brownie chunks and fudge swirl.",
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "image": "../DB/imge/18.png",
+    "image": "../db/imge/18.png",
     "title": "Banana Split",
     "rating": "4.5/5",
     "description": "Banana flavor with cherry topping.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "image": "../DB/imge/19.png",
+    "image": "../db/imge/19.png",
     "title": "Almond Joy",
     "rating": "4.3/5",
     "description": "Creamy almond mix with choco bits.",
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "image": "../DB/imge/20.png",
+    "image": "../db/imge/20.png",
     "title": "Orange Creamsicle",
     "rating": "4.4/5",
     "description": "Zesty orange with vanilla cream.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 21,
-    "image": "../DB/imge/21.png",
+    "image": "../db/imge/21.png",
     "title": "Matcha Magic",
     "rating": "4.2/5",
     "description": " Smooth green tea flavored delight.",
@@ -190,7 +190,7 @@
   },
   {
     "id": 22,
-    "image": "../DB/imge/22.png",
+    "image": "../db/imge/22.png",
     "title": "Cherry Bomb",
     "rating": "4.6/5",
     "description": "Juicy cherries with sweet cream.",
